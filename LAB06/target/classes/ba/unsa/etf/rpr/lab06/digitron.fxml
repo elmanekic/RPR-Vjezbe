@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="5.0" prefHeight="234.0" prefWidth="156.0" vgap="5.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.lab06.Controller">
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints hgrow="ALWAYS" />
+        <ColumnConstraints hgrow="ALWAYS" />
+        <ColumnConstraints hgrow="ALWAYS" />
+        <ColumnConstraints hgrow="ALWAYS" />
+        <ColumnConstraints hgrow="ALWAYS" />
+        <ColumnConstraints hgrow="ALWAYS" />
+        <ColumnConstraints hgrow="ALWAYS" />
+        <ColumnConstraints hgrow="ALWAYS" maxWidth="37.000036621093756" minWidth="32.000024414062494" prefWidth="36.800012207031244" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="95.20001220703125" minWidth="2.39996337890625" prefWidth="3.1999877929687557" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+        <RowConstraints vgrow="ALWAYS" />
+    </rowConstraints>
+    <Label fx:id="display" graphicTextGap="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="41.0" prefWidth="139.0" text="" GridPane.columnIndex="2" GridPane.columnSpan="7" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+        <font>
+            <Font size="20.0" />
+        </font>
+        <GridPane.margin>
+            <Insets top="5.0" />
+        </GridPane.margin>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets></Label>
+    <Button fx:id="modBtn" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="\%" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="divBtn" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="/" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="mulBtn" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="x" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="subBtn" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="-" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn7" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="7" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn8" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="8" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn9" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="9" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="plusBtn" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" prefHeight="62.0" prefWidth="26.0" text="+" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="5" GridPane.rowSpan="3" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn4" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="4" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn5" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="5" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn6" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="6" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn1" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="1" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="9" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn2" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="2" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="9" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn3" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="3" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="9" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="equalsBtn" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" styleClass="red-button" text="=" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="9" GridPane.rowSpan="3" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="btn0" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="0" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="11" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+    <Button fx:id="dotBtn" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ButtonClick" text="." GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="11" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+</GridPane>

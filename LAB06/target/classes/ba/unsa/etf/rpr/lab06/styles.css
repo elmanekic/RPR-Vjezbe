@@ -1,0 +1,8 @@
+#display {
+    -fx-background-color: yellowgreen;
+}
+
+.red-button {
+     -fx-background-color: lightpink;
+        -fx-text-fill: black;
+}
